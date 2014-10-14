@@ -35,7 +35,7 @@ if(function_exists("register_field_group"))
 				array (
 					'param' => 'post_type',
 					'operator' => '==',
-					'value' => 'author',
+					'value' => 'book-author',
 					'order_no' => 0,
 					'group_no' => 0,
 				),
@@ -43,7 +43,7 @@ if(function_exists("register_field_group"))
 		),
 		'options' => array (
 			'position' => 'normal',
-			'layout' => 'no_box',
+			'layout' => 'default',
 			'hide_on_screen' => array (
 			),
 		),
